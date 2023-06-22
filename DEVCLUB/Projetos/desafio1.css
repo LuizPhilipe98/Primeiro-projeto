@@ -1,0 +1,179 @@
+*{
+
+margin:0px;
+padding:0px;
+font-family: 'Poppins', sans-serif;
+box-sizing:border-box;
+}
+
+.img-box{
+ margin:163px 0 0 123px;
+display:inline-block;
+
+}
+
+div{
+  width:493px;
+margin-left: 84px;
+display: inline-block
+
+
+
+}
+    .link-header{
+            width: 83px;
+            height: 21px;
+            text-align:center ;
+            cursor: pointer;
+            letter-spacing: 0.875px;
+            font-size: 14px;
+                line-height: 21px;
+                color: #17233D;
+                margin-right: 32px;
+    }
+
+h1{
+
+font-weight: 700;
+font-size: 62px;
+line-height: 82px;
+letter-spacing: 1px;
+color: #161A49;
+
+
+}
+
+p{
+        
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 1px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom:55px;
+    
+}
+
+
+.learn-more{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+   
+    background: transparent;
+    border:none;
+    letter-spacing: 1px;
+    
+    color: #6FBF44;
+    cursor:pointer;
+
+
+
+}
+
+main{
+display: inline;
+margin-left: 86px;
+
+
+
+
+}
+
+.sign-up{
+            background: #6FBF44;
+            border: 1px solid #4CB538;
+            border-radius: 6px;
+             width: 124px;
+            height: 51px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) and (orientation:landscape)
+{
+
+div{
+width: 91px;
+height: 31px;
+radius:6px;
+}
+
+main{
+display:block;
+box-sizing: border-box;
+
+}
+
+
+
+
+
+h1{
+    width: 278px;
+    height:60px;
+    top:-1331px;
+    left:1185px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.596154px;
+    color: #161A49;  
+}
+p{
+width:304px;
+height:165px;
+top:-1242px;
+left:1171px;
+ font-size: 18px;
+line-height: 33px;
+text-align: center;
+letter-spacing: 0.5px;
+color: #4B505A;
+
+
+}
+
+.learn-more{
+        width: 112px;
+        height: 27px;
+        font-size: 18px;
+        top:-1052px;
+        left:1267px;
+        right:1267px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        color: #6FBF44;
+        margin:139px 139px;
+        background: transparent;
+        border:none;
+        letter-spacing: 1px;
+        display:block;
+    
+}
+
+img{
+   left: 1167px;
+    width: 279.92px;
+    height: 268.93px;
+    top:-965px;
+    
+
+}
+
+.sign-up{
+    width:91px;
+    height:31px;
+    radius: 6px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+
+    
+    }
+}
